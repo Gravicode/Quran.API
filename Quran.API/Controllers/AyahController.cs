@@ -2,9 +2,11 @@
 using QFE.DAL;
 using QFE.BLL;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Quran.API.Controllers
 {
+    [AllowAnonymous]
     [Route("api/[controller]")]
     [ApiController]
     public class AyahController : ControllerBase
