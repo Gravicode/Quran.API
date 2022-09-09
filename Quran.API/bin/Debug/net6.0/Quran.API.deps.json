@@ -11,8 +11,7 @@
           "Microsoft.EntityFrameworkCore": "6.0.8",
           "Microsoft.EntityFrameworkCore.Sqlite": "6.0.8",
           "Swashbuckle.AspNetCore": "6.2.3",
-          "System.Data.SQLite.Core": "1.0.116",
-          "System.Data.SQLite.Linq": "1.0.116"
+          "System.Data.SQLite.Core": "1.0.116"
         },
         "runtime": {
           "Quran.API.dll": {}
@@ -356,14 +355,6 @@
           "Stub.System.Data.SQLite.Core.NetStandard": "1.0.116"
         }
       },
-      "System.Data.SQLite.Linq/1.0.116": {
-        "runtime": {
-          "lib/net46/System.Data.SQLite.Linq.dll": {
-            "assemblyVersion": "1.0.116.0",
-            "fileVersion": "1.0.116.0"
-          }
-        }
-      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -606,13 +597,6 @@
       "sha512": "sha512-djwmo97syWCpUPJbDS0e2qUFUa8cDLeIfMotVkaRkAC5gpfBSZLMzvoLkLp1prY8waAuH1jEC3wcB2ymVVQWtA==",
       "path": "system.data.sqlite.core/1.0.116",
       "hashPath": "system.data.sqlite.core.1.0.116.nupkg.sha512"
-    },
-    "System.Data.SQLite.Linq/1.0.116": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-chSy8+xdCkyMH47BvggLb4fZwkd+/ZqBG14WFbXoURgqfpS+8qVdc/0ASoZbsPjNBWSoEsEfKPqfMCY08MvEMg==",
-      "path": "system.data.sqlite.linq/1.0.116",
-      "hashPath": "system.data.sqlite.linq.1.0.116.nupkg.sha512"
     },
     "System.Diagnostics.DiagnosticSource/6.0.0": {
       "type": "package",

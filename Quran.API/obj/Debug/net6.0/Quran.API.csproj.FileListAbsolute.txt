@@ -55,5 +55,4 @@ D:\experiment\Quran.API\Quran.API\obj\Debug\net6.0\refint\Quran.API.dll
 D:\experiment\Quran.API\Quran.API\obj\Debug\net6.0\Quran.API.pdb
 D:\experiment\Quran.API\Quran.API\obj\Debug\net6.0\Quran.API.genruntimeconfig.cache
 D:\experiment\Quran.API\Quran.API\obj\Debug\net6.0\ref\Quran.API.dll
-D:\experiment\Quran.API\Quran.API\bin\Debug\net6.0\System.Data.SQLite.Linq.dll
 D:\experiment\Quran.API\Quran.API\bin\Debug\net6.0\quran.db
