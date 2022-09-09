@@ -723,15 +723,6 @@
           }
         }
       },
-      "System.Data.DataSetExtensions/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netstandard2.0/System.Data.DataSetExtensions.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Data.DataSetExtensions.dll": {}
-        }
-      },
       "System.Data.SqlClient/4.8.1": {
         "type": "package",
         "dependencies": {
@@ -2051,25 +2042,6 @@
         "version.txt"
       ]
     },
-    "System.Data.DataSetExtensions/4.5.0": {
-      "sha512": "221clPs1445HkTBZPL+K9sDBdJRB8UN8rgjO3ztB0CQ26z//fmJXtlsr6whGatscsKGBrhJl5bwJuKSA8mwFOw==",
-      "type": "package",
-      "path": "system.data.datasetextensions/4.5.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net45/_._",
-        "lib/netstandard2.0/System.Data.DataSetExtensions.dll",
-        "ref/net45/_._",
-        "ref/netstandard2.0/System.Data.DataSetExtensions.dll",
-        "system.data.datasetextensions.4.5.0.nupkg.sha512",
-        "system.data.datasetextensions.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
     "System.Data.SqlClient/4.8.1": {
       "sha512": "HKLykcv6eZLbLnSMnlQ6Os4+UAmFE+AgYm92CTvJYeTOBtOYusX3qu8OoGhFrnKZax91UcLcDo5vPrqvJUTSNQ==",
       "type": "package",
@@ -2630,11 +2602,9 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "EntityFramework >= 6.4.4",
       "Microsoft.EntityFrameworkCore >= 6.0.8",
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.8",
       "Swashbuckle.AspNetCore >= 6.2.3",
-      "System.Data.DataSetExtensions >= 4.5.0",
       "System.Data.SQLite >= 1.0.116",
       "System.Data.SQLite.Linq >= 1.0.116"
     ]
@@ -2689,10 +2659,6 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
-          "EntityFramework": {
-            "target": "Package",
-            "version": "[6.4.4, )"
-          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[6.0.8, )"
@@ -2704,10 +2670,6 @@
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.2.3, )"
-          },
-          "System.Data.DataSetExtensions": {
-            "target": "Package",
-            "version": "[4.5.0, )"
           },
           "System.Data.SQLite": {
             "target": "Package",
